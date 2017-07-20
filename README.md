@@ -2,6 +2,30 @@ Bem-vindo ao mundo do Zend Framework 3. Aqui será feita a tradução do tutoria
 
 Boa sorte nos estudos!
 
+Para começar, será mostrado o ambiente no qual a aplicação rodou 100%:
+
+- Ubuntu 16.04
+- Apache 2
+- PHP 7
+- SQlite
+- Composer
+
+Alguns links importantes:
+
+- https://www.digitalocean.com/community/tutorials/como-instalar-a-pilha-linux-apache-mysql-php-lamp-no-ubuntu-16-04-pt
+
+- https://www.digitalocean.com/community/tutorials/how-to-set-up-apache-virtual-hosts-on-ubuntu-16-04
+
+- https://docs.zendframework.com/tutorials/getting-started/overview/
+
+- https://www.digitalocean.com/community/tutorials/how-to-rewrite-urls-with-mod_rewrite-for-apache-on-ubuntu-16-04
+
+- https://docs.zendframework.com/tutorials/getting-started/skeleton-application/
+
+
+Vale ressaltar que o intuito aqui é disponibilizar a aplicação baseada no tutorial do tradicional Album do site oficial da Zend Framework (https://docs.zendframework.com), porém com algumas correções e adaptações para Blog. Na verdade a única alteração se deu pelo nome de Album para Blog e do atributo descrição para conteúdo.
+
+
 Para construir nossa aplicação, começaremos com o ZendSkeletonApplication disponível no github. Use o Composer para criar um novo projeto a partir do zero:
 
 $ Composer create-project -s dev zendframework / skeleton-application path / to / install
